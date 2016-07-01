@@ -115,6 +115,7 @@ bio.display = function() {
         }
     }
 };
+
 //Work Function //
 work.display = function(){
     $("#workExperience").append(HTMLworkStart);
