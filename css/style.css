@@ -173,10 +173,12 @@ span {
 }
 
 #projects {
+
     background: #ddddcf;
 /*    background: -webkit-linear-gradient(to top right, #FF512F , #DD2476 );
     background: linear-gradient(to top right, #FF512F , #DD2476 );
     background: -moz-linear-gradient(to top right, #FF512F , #DD2476 );*/
+
 }
 .project-entry img{
   width: 500px;
