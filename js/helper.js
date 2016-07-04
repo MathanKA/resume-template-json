@@ -1,7 +1,4 @@
 
-
-
-
 var HTMLheaderName = '<h1 id="name">%data%</h1>';
 var HTMLheaderRole = '<span>%data%</span><hr>';
 
@@ -171,7 +168,8 @@ function initializeMap() {
     // hmmmm, I wonder what this is about...
     google.maps.event.addListener(marker, 'click', function() {
       // your code goes here!
-      console.log("marker clicked!");
+      //console.log("marker clicked!");
+      infoWindow.open(map, marker);
 
     });
 
